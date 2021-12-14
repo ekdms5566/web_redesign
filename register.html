@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script src="script/slick.min.js"></script>
+    <script src="script/main.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous">
+    </script>
+    
+</head>
+<body>
+    <div id="wrapper" >
+        <header>
+            <div class="wrap">
+                <h1><a href="#"><img src="images/lets_logo.gif" alt="Let's Korail"></a></h1>
+                <button class="navOpen">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <nav>
+                <div class="wrap">
+                    <button class="navClose">
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="util">
+                        <li>
+                            <a href="login.html">
+                                <i class="fas fa-sign-in-alt"></i>
+                                로그인/회원가입
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-user-alt"></i>
+                                마이페이지
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                                장바구니
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-headphones-alt"></i>
+                                고객센터
+                            </a>
+                        </li>
+                        <li class="lang">
+                            <a href="#">
+                                LANGUAGE
+                                <i class="fas fa-sort-down"></i>
+                            </a>
+                        </li>
+                        <li><a href="#">코레일홈페이지</a></li>
+                        <li><a href="#">기업전용</a></li>
+                    </ul>
+                    <div class="navBanner">
+                        <img src="images/banner_mini.jpg" alt="">
+                        <img src="images/banner_mini2.jpg" alt="">
+                        <img src="images/banner_mini3.jpg" alt="">
+                    </div>
+                </div>
+                <ul class="gnb">
+                    <li>
+                        <a href="#">승차권</a>
+                        <ul class="sub">
+                            <li>
+                                <a href="#">승차권예약</a>
+                                <ul class="sub2">
+                                    <li><a href="#">일반승차권</a></li>
+                                    <li><a href="#">할인승차권</a></li>
+                                    <li><a href="#">4인동반석</a></li>
+                                    <li><a href="#">관광열차</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">발권/취소/변경</a>
+                                <ul class="sub2">
+                                    <li><a href="#">발권/취소(반환)</a></li>
+                                    <li><a href="#">예약변경</a></li>
+                                    <li><a href="#">이용내역/영수증출력</a></li>
+                                    <li><a href="#">과거이용내역신청/조회</a></li>
+                                    <li><a href="#">도시락/제휴상품영수증</a></li>
+                                    <li><a href="#">인터넷반환접수</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">정기승차권</a>
+                                <ul class="sub2">
+                                    <li><a href="#">정기승차권조회</a></li>
+                                    <li><a href="#">정기승차권발급</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">미등록고객서비스</a>
+                                <ul class="sub2">
+                                    <li><a href="#">승차권예약</a></li>
+                                    <li><a href="#">발권/취소(반환)</a></li>
+                                    <li><a href="#">받은승차권 예약취소</a></li>
+                                    <li><a href="#">승차권재발권</a></li>
+                                    <li><a href="#">이용내역/영수증출력</a></li>
+                                    <li><a href="#">지연료 계좌반환 신청</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">이용안내</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">관광열차</a>
+                        <ul class="sub">
+                            <li>
+                                <a href="#">동해산타열차</a>
+                                <ul class="sub2">
+                                    <li><a href="#">동해산타열차 소개</a></li>
+                                    <li><a href="#">동해산타열차 추천여행</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">서해금빛열차</a>
+                                <ul class="sub2">
+                                    <li><a href="#">West gold-tran 소개</a></li>
+                                    <li><a href="#">West gold-tran 추천여행</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">백두대간협곡열차</a>
+                                <ul class="sub2">
+                                    <li><a href="#">V-tran 소개</a></li>
+                                    <li><a href="#">V-tran 추천여행</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">남도해양열차</a>
+                                <ul class="sub2">
+                                    <li><a href="#">S-train 소개</a></li>
+                                    <li><a href="#">S-train 추천여행</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">평화열차DMZ</a>
+                                <ul class="sub2">
+                                    <li><a href="#">DMZ-train 소개</a></li>
+                                    <li><a href="#">DMZ-train 추천여행</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">정선아리랑열차</a>
+                                <ul class="sub2">
+                                    <li><a href="#">A-train 소개</a></li>
+                                    <li><a href="#">A-train 추천여행</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">레일크루즈해랑</a>
+                            </li>
+                            <li>
+                                <a href="#">바다열차</a>
+                            </li>
+                            <li>
+                                <a href="#">교육열차</a>
+                            </li>
+                            <li>
+                                <a href="#">국악와인열차</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">자유여행</a>
+                        <ul class="sub">
+                            <li>
+                                <a href="#">국내여행패스</a>
+                                <ul class="sub2">
+                                    <li><a href="#">내일로 두번째 이야기</a></li>
+                                    <li><a href="#">문화누리패스</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">해외여행패스</a>
+                                <ul class="sub2">
+                                    <li><a href="#">일본패스</a></li>
+                                    <li><a href="#">유럽패스</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">기차여행만들기</a>
+                            </li>
+                            <li>
+                                <a href="#">호텔예약</a>
+                            </li>
+                            <li>
+                                <a href="#">렌터카예약</a>
+                                <ul class="sub2">
+                                    <li><a href="#">롯데렌터카</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">여행상품</a>
+                        <ul class="sub">
+                            <li>
+                                <a href="#">테마패키지</a>
+                                <ul class="sub2">
+                                    <li><a href="#">우리지역 대표상품</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">KTX+연계서비스</a>
+                                <ul class="sub2">
+                                    <li><a href="#">레일텔</a></li>
+                                    <li><a href="#">레일쉽-제주도(목포)</a></li>
+                                    <li><a href="#">레일쉽-제주도(여수)</a></li>
+                                    <li><a href="#">레일쉽-울릉도(포항)</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">국내패키지</a>
+                                <ul class="sub2">
+                                    <li><a href="#">수도권</a></li>
+                                    <li><a href="#">강원권</a></li>
+                                    <li><a href="#">충청권</a></li>
+                                    <li><a href="#">경상권</a></li>
+                                    <li><a href="#">전라권</a></li>
+                                    <li><a href="#">제주권</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">이달의 기차여행</a>
+                            </li>
+                            <li>
+                                <a href="#">여행상품예약확인</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">종합이용안내</a>
+                        <ul class="sub">
+                            <li><a href="#">할인 및 부가서비스</a></li>
+                            <li><a href="#">승차권 이용안내</a></li>
+                            <li><a href="#">교통약자 배려서비스</a></li>
+                            <li><a href="#">전철이용안내/지연증명</a></li>
+                            <li><a href="#">유실물</a></li>
+                            <li><a href="#">고객의소리 접수/조회</a></li>
+                            <li><a href="#">철도고객센터</a></li>
+                            <li><a href="#">광고안내</a></li>
+                            <li><a href="#">승차권 제휴할인 안내</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">기차역정보</a>
+                        <ul class="sub">
+                            <li>
+                                <a href="#">기차역 안내</a>
+                                <ul class="sub2">
+                                    <li><a href="#">KTX역</a></li>
+                                    <li><a href="#">일반철도</a></li>
+                                    <li><a href="#">광역철도</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">철도 노선 안내</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div >
+            <h1 style="text-align:center; margin: 40px 0;">회원가입</h1><hr>
+        </div>
+        <ul class="fixBar">
+            <li><a href="res.html"><img src="images/quickMenu_1.png" width="40px"><br>예매하기</li></a>
+            <li><img src="images/quickMenu_2.png" width="45px"><br>예매내역·환불</li>
+            <li><img src="images/quickMenu_3.png" width="40px"><br>고객센터</li>
+        </ul>
+        <div class="resBox">
+            <div class="loginBox">
+                <div class="login" style="text-align: center; margin-top: -50px;">    
+                    <table class="loginTable" style="border: none;" width="100px">
+                        <tr><td>아이디 : <input type="text" placeholder="아이디를 입력하세요" id="user_id" style="border: 1px solid black; height: 30px; margin-left: 15px;" required autofocus></td></tr>
+                        <tr><td>비밀번호 : <input type="password" placeholder="비밀번호를 입력하세요" id="user_pw" style="border: 1px solid black; height: 30px;" required></td></tr>
+                        <tr><td>비밀번호 확인 : <input type="password" placeholder="비밀번호를 입력하세요" id="user_pw" style="border: 1px solid black; height: 30px; margin-bottom: 10px ;" required></td></tr>
+                    </table>    
+    
+                    <input type="button" style="background-color: #083b82; color: white; width: 300px; height:40px; justify-content: right; margin-bottom: 10px;" value="회원가입"><br>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="wrap">
+                <ul class="f_menu">
+                    <li><a href="#">홈페이지이용약관</a></li>
+                    <li><a href="#">여객운송약관/부속약관</a></li>
+                    <li><a href="#">정보공개</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                    <li><a href="#">저작권정책</a></li>
+                </ul>
+                <h2><img src="images/lets_logo.gif" alt=""></h2>
+                <address>
+                    <ul>
+                        <li>대표자 : 나희승</li>
+                        <li>상호 : 한국철도공사</li>
+                        <li>사업자등록 : 314-82-10024</li>
+                        <li>통신판매업신고 : 대전동구-0233호</li>
+                        <li>주소 : (34618)대전광역시 동구 중앙로 240</li>
+                        <li>TEL : 1544-7788</li>
+                        <li>FAX : 02-361-8385</li>
+                    </ul>
+                </address>
+                <p class="copyright">COPYRIGHT ⓒ KOREA RAILROAD.All RIGHTS RESERVED.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
